@@ -1,9 +1,6 @@
 **Anki: http://ankisrs.net/ is newer and appears better than cardflasher in nearly every way. I'm leaving
 this repo up, but you should try Anki.**
 
-which looks much cooler than this
-old program of mine. Wish it
-
 Cardflasher
 ===========
 
