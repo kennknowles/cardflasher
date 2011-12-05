@@ -1,0 +1,55 @@
+src/Parser.cmi: src/Util.cmi 
+src/InputOutput.cmi: src/Architecture.cmo 
+src/FileHandling.cmi: src/Architecture.cmo 
+src/Entry.cmi: src/Architecture.cmo 
+src/Quiz.cmi: src/Architecture.cmo 
+src/Data.cmi: src/Architecture.cmo 
+src/CardBox.cmi: src/Architecture.cmo 
+src/ConsoleUi.cmi: src/Architecture.cmo 
+src/GtkUi.cmi: src/Architecture.cmo 
+src/Util.cmo: src/Util.cmi 
+src/Util.cmx: src/Util.cmi 
+src/Architecture.cmo: src/Util.cmi 
+src/Architecture.cmx: src/Util.cmx 
+src/Config.cmo: src/Util.cmi src/Config.cmi 
+src/Config.cmx: src/Util.cmx src/Config.cmi 
+src/Debug.cmo: src/Config.cmi src/Debug.cmi 
+src/Debug.cmx: src/Config.cmx src/Debug.cmi 
+src/Parser.cmo: src/Util.cmi src/Architecture.cmo src/Parser.cmi 
+src/Parser.cmx: src/Util.cmx src/Architecture.cmx src/Parser.cmi 
+src/Lexer.cmo: src/Util.cmi src/Parser.cmi 
+src/Lexer.cmx: src/Util.cmx src/Parser.cmx 
+src/InputOutput.cmo: src/Util.cmi src/Parser.cmi src/Lexer.cmo src/Debug.cmi \
+    src/Architecture.cmo src/InputOutput.cmi 
+src/InputOutput.cmx: src/Util.cmx src/Parser.cmx src/Lexer.cmx src/Debug.cmx \
+    src/Architecture.cmx src/InputOutput.cmi 
+src/FileHandling.cmo: src/Util.cmi src/Debug.cmi src/Architecture.cmo \
+    src/FileHandling.cmi 
+src/FileHandling.cmx: src/Util.cmx src/Debug.cmx src/Architecture.cmx \
+    src/FileHandling.cmi 
+src/Entry.cmo: src/Util.cmi src/Debug.cmi src/Entry.cmi 
+src/Entry.cmx: src/Util.cmx src/Debug.cmx src/Entry.cmi 
+src/Quiz.cmo: src/Quiz.cmi 
+src/Quiz.cmx: src/Quiz.cmi 
+src/Data.cmo: src/Util.cmi src/Architecture.cmo src/Data.cmi 
+src/Data.cmx: src/Util.cmx src/Architecture.cmx src/Data.cmi 
+src/CardBox.cmo: src/Util.cmi src/Debug.cmi src/Architecture.cmo \
+    src/CardBox.cmi 
+src/CardBox.cmx: src/Util.cmx src/Debug.cmx src/Architecture.cmx \
+    src/CardBox.cmi 
+src/ConsoleUi.cmo: src/Architecture.cmo src/ConsoleUi.cmi 
+src/ConsoleUi.cmx: src/Architecture.cmx src/ConsoleUi.cmi 
+src/GtkUi.cmo: src/Debug.cmi src/Config.cmi src/Architecture.cmo \
+    src/GtkUi.cmi 
+src/GtkUi.cmx: src/Debug.cmx src/Config.cmx src/Architecture.cmx \
+    src/GtkUi.cmi 
+src/Lexer.cmo: src/Util.cmi src/Parser.cmi 
+src/Lexer.cmx: src/Util.cmx src/Parser.cmx 
+src/Parser.cmo: src/Util.cmi src/Architecture.cmo src/Parser.cmi 
+src/Parser.cmx: src/Util.cmx src/Architecture.cmx src/Parser.cmi 
+src/main.cmo: src/Util.cmi src/Quiz.cmi src/InputOutput.cmi src/GtkUi.cmi \
+    src/FileHandling.cmi src/Entry.cmi src/Debug.cmi src/Data.cmi \
+    src/ConsoleUi.cmi src/Config.cmi src/CardBox.cmi src/Architecture.cmo 
+src/main.cmx: src/Util.cmx src/Quiz.cmx src/InputOutput.cmx src/GtkUi.cmx \
+    src/FileHandling.cmx src/Entry.cmx src/Debug.cmx src/Data.cmx \
+    src/ConsoleUi.cmx src/Config.cmx src/CardBox.cmx src/Architecture.cmx 

@@ -1,0 +1,2 @@
+open Architecture
+include QUIZ

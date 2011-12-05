@@ -1,0 +1,32 @@
+front1
+back1
+
+front2
+back2
+
+%%RECORD
+front3
+%%
+back3
+%%%%
+
+%%SIMPLE 3
+front4
+middle4
+back4
+
+front5
+middle5
+back5
+%%RECORD
+front6
+%%
+back6
+%%%%
+%%SIMPLE 2
+front7
+back7
+back7cont
+
+front8
+back8
