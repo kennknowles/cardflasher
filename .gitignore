@@ -1,0 +1,14 @@
+*~
+*.o
+*.cmo
+*.cma
+*.cmi
+*.cmx
+.*.swp
+
+/cardflasher
+/cardflasher.opt
+/src/Lexer.ml
+/src/Parser.mli
+/src/Parser.ml
+/src/Parser.output
